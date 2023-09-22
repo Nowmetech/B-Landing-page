@@ -284,7 +284,7 @@
      display:flex;
      position: relative; 
      width: 50%; 
-     right: 90rem;
+     right: 95rem;
      top: 32.5rem;
      height: 50vh;
      
@@ -477,11 +477,18 @@
     right: 0rem;
     width: 6rem;
 }
+
+
+
+
+/* body part 1 */
 .body-part-1{
+    margin: auto;
     width: 80%;
     height: 100%;
     position: relative;
-    left: 10rem;
+    left: 14rem;
+    margin-top: 3rem;
     
 }
  .small-container{
@@ -496,6 +503,13 @@
  }
  .body-part-1 h2 p {
     text-align: center;
+
+ }
+ .body-part-1 h2{
+    margin-left: 21rem;
+ }
+ .body-part-1 p{
+    margin-left: 6rem;
  }
  .container-1{
     position: relative;
@@ -506,7 +520,7 @@
 /* body part 2 */
 .body-part-2{
     width: 100%;
-    height: 50%;
+    height: 100%;
     position: relative;    
    
 }
@@ -527,15 +541,80 @@
     height: 500px;
 }
 .affordable{
-    font-size: 25px;
+    font-size: 40px;
 }
+.mission-png{
+    width: 28vw;
+    height: 20vh;
+    font-size: 16px;
+    display: flex;    
+    align-items: center; 
+}
+.mission-png img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 3rem;
+}
+.mission-png div{
+    position: absolute;
+    right: 2rem;
+    width: 150px;
+    height: 20px;  
+    font-size: 15px;
+   
+}
+.vision-png{
+    width: 28vw;
+    height: 20vh;
+    font-size: 16px;
+    display: flex;    
+    align-items: center; 
+    margin-bottom: 1rems;
+}
+.vision-png img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 3rem;
+}
+.vision-png div{
+    position: absolute;
+    right: 2rem;
+    width: 150px;
+    height: 20px;  
+    font-size: 15px;
+    
+   
+}
+.learn-btn{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 247px;
+    height: 60px;
+    padding: 0.5rem;
+    bottom: -9rem;
+    left: -8rem;
+   
+   
+    font-size: 26px;
+   
+
+/* body part 3 */
+
+
+
+
+
 .body-part-3{
     width: 75vw;
     height: 900px;
     position: relative;
 }
 .group-video{
-    width: 1080px;
+    width: 1039px;
     height: 900px;    
     position: relative;
      
@@ -564,7 +643,7 @@
 }
 .video-png-1{
     position: absolute;
-    left: 31rem;
+    left: 28rem;
     top: 7rem;
     z-index: 5;
 }
